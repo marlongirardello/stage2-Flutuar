@@ -1,0 +1,63 @@
+body, p, a{
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+  margin:auto;
+  text-align: center;
+  overflow-y: hidden;
+}
+p {
+  margin-bottom: 32px;
+  font-size: 15px;
+  line-height: 22px;
+
+}
+
+#viagem {
+  width: 626px;
+  margin: 64px auto 72px;
+}
+
+#viagem img {
+  margin-bottom: 32px;
+}
+
+span{
+  font-weight: bold;
+  color:#EE24FF;
+}
+
+h1{
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 16px;
+}
+
+.line {  /*. são classes e # são id*/
+  width: 391px;
+  height: 0px;
+  margin: 0 auto 16px;
+  border: 1px solid #eceff2;
+}
+
+.highlighted{
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+#footer{
+  margin-top: 48px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+#footer a {
+  color:#3F3D56;
+  text-decoration: none;
+}
+
+#wave img {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#footer a + a { /*Pegar o "a" anterior ao "a" e aplique a margem, ou seja, ele vai pegar apenas primeiro a e colocar a margem*/
+  margin-left: 42px;
